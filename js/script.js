@@ -7,16 +7,21 @@ var usuarios = [
 function Entrar(){
     var usuario = document.getElementsByName('username')[0].value.toLowerCase();
     var senha = document.getElementsByName('password')[0].value;
+    //const mudar = document.getElementById('mudar')
 
     for (var u in usuarios) {
         var us = usuarios[u];
         if (us.login === usuario && us.senha === senha) {
             localStorage.setItem("acesso", true);
             alert("usuário autenticado!")
-            window.location = ""
+            window.location = "pagina1.html"
             return true;
         }
     }
+    alert("Usuário ou senha inválidos!")
+    //mudar.innerHTML = '<br><center style="font-size:17px"> Usuário ou Senha inválidos!</center>'
+    //mudar.innerHTML += '<center style="font-size:17px">Tente novamente.</center>'
+    return false;
 }
 
 
