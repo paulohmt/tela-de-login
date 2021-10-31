@@ -13,8 +13,8 @@ function Entrar(){
         var us = usuarios[u];
         if (us.login === usuario && us.senha === senha) {
             localStorage.setItem("acesso", true);
-            window.location.href = "https://www.google.com/"
-            alert("usuário autenticado!")
+            window.location.href = "https://www.youtube.com/watch?v=eMEZTl-7Vvw"
+            alert("usuário autenticado!");
            return true;
         }
     }
