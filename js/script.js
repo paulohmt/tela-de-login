@@ -13,12 +13,12 @@ function Entrar(){
         var us = usuarios[u];
         if (us.login === usuario && us.senha === senha) {
             localStorage.setItem("acesso", true);
+            window.location.href = "https://www.google.com/"
             alert("usuário autenticado!")
-            window.location = "pagina1.html"
-            return true;
+           return true;
         }
     }
-    alert("Usuário ou senha inválidos!")
+    alert("Usuário ou senha inválidos!");
     //mudar.innerHTML = '<br><center style="font-size:17px"> Usuário ou Senha inválidos!</center>'
     //mudar.innerHTML += '<center style="font-size:17px">Tente novamente.</center>'
     return false;
