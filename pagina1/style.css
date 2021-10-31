@@ -1,6 +1,16 @@
-h1{
-    font-family: fantasy;
+body{
+    height: 100%;
 }
 body{
-    text-align: center;
+    text-align: center;   
 }
+.textodebemvindo{
+    font-family: fantasy;
+    margin-top: -1500px;
+    font-size: 4.5rem;
+    color: rgb(247, 247, 247);
+}
+.imgfundo{
+    margin-left: -1211px;
+}
+
