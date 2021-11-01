@@ -11,6 +11,11 @@ body {
   background-color: #ffffff;
 }
 
+main{
+    animation-name: fade;
+    animation-duration: 2s;
+}
+
 .form-signin {
   width: 100%;
   max-width: 330px;
@@ -40,4 +45,16 @@ body {
 
 h1{
   font-family: fantasy;
+}
+
+/**********************EFEITOS**********************/
+@keyframes fade {
+  from {         /*SAIR DESSA LINHDA*/
+      opacity: 0;
+      transform: scale(0.9);
+  }
+  to {           /*ENTRA NESSA LINHA*/
+      opacity: 1;
+      transform: scale(1);
+  }
 }
