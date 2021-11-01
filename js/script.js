@@ -1,20 +1,20 @@
-var usuarios = [
+const usuarios = [
     { "login": "pedro", "senha": "34970994" },
     { "login": "paulo", "senha": "112233" },
     { "login": "sarah", "senha": "teamopedro" },
 ];
 
 function Entrar(){
-    var usuario = document.getElementsByName('username')[0].value.toLowerCase();
-    var senha = document.getElementsByName('password')[0].value;
+    const usuario = document.getElementsByName('username')[0].value.toLowerCase();
+    const senha = document.getElementsByName('password')[0].value;
     //const mudar = document.getElementById('mudar')
 
-    for (var u in usuarios) {
-        var us = usuarios[u];
+    for (const u in usuarios) {
+        const us = usuarios[u];
         if (us.login === usuario && us.senha === senha) {
             localStorage.setItem("acesso", true);
-            window.location.href = "https://www.youtube.com/watch?v=eMEZTl-7Vvw"
             alert("usuário autenticado!");
+            window.location = "./pagina1/pagina1.html"
            return true;
         }
     }
