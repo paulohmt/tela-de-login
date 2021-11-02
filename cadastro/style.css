@@ -1,6 +1,8 @@
+body{
+    height: 100%;
+}
 h1 {
     font-size: 4.5rem;
     font-family: fantasy;
-    margin-top: 260px;
-    margin-right: 671px;
+    text-align: center;
 }

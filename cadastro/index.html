@@ -5,22 +5,43 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+        integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+        integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
+        crossorigin="anonymous"></script>
     <title>Cadastro</title>
 </head>
 
-<body class="text-center">
-    <main>
-        <div>
+<body style="text-align: center;">
+    <h1>Cadastre-se!</h1>
+    <form action="">
+        <input type="text" name="nome" id="nome" placeholder="Nome"><br><br>
+        Sexo: <br>
+        <input type="radio" name="Masculino" value="masculino" id="masculino"> Masculino <br>
+        <input type="radio" name="Feminino" value="feminino" id="masculino"> Feminino <br>
+        Interesses: <br>
+        <input type="checkbox" name="marcacao" id="futebol"> Futebol <br>
+        <input type="checkbox" name="marcacao" id="volei"> Volei <br>
+        <input type="checkbox" name="marcacao" id="futsal"> Futsal <br>
+        Estado <br>
+        <Select>
+            <option value="ce">CE</option>
+            <option value="mg">MG</option>
+            <option value="pb">PB</option>
+            <option value="rs">RS</option>
+            <option value="go">GO</option>
+        </Select> <br>
+        Observações <br>
+        <textarea name="" id="" cols="40" rows="5"></textarea> <br>
+        <input type="submit" name="" value="cadastrar" id="">
 
-            <h1>Cadastre-se!</h1>
+    </form>
 
-
-
-    </main>
-    </div>
+    <!--Atualizar links no final!-->
     <link rel="stylesheet" href="../cadastro/style.css">
 </body>
 
