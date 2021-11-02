@@ -50,6 +50,10 @@ h1{
   font-family: fantasy;
 }
 
+a{
+  text-decoration: none;
+}
+
 /**********************EFEITOS**********************/
 @keyframes fade {
   from {         /*SAIR DESSA LINHDA*/
