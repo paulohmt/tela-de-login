@@ -7,7 +7,7 @@ const usuarios = [
 function Entrar(){
     const usuario = document.getElementsByName('username')[0].value.toLowerCase();
     const senha = document.getElementsByName('password')[0].value;
-    //const mudar = document.getElementById('mudar')
+    const mudar = document.getElementById('mudar')
 
     for (const u in usuarios) {
         const us = usuarios[u];
@@ -18,8 +18,8 @@ function Entrar(){
            return true;
         }
     }
-    alert("Usuário ou senha inválidos!");
-    //mudar.innerHTML = '<br><center style="font-size:17px"> Usuário ou Senha inválidos!</center>'
+    mudar.innerHTML 
+    = '<div class="alert alert-danger" role="alert">Usuário ou senha inválidos!</div>'
     //mudar.innerHTML += '<center style="font-size:17px">Tente novamente.</center>'
     return false;
 }
