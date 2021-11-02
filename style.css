@@ -12,6 +12,9 @@ body {
 }
 
 main{
+    background: white;
+    border-radius: 15px;
+    box-shadow: 0px 0px 27px rgb(14 13 13 / 83%);
     animation-name: fade;
     animation-duration: 2s;
 }
